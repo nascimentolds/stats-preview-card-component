@@ -1,0 +1,63 @@
+:root {
+  --very-dark-blue: hsl(233, 47%, 7%);
+  --Dark-blue: hsl(244, 38%, 16%);
+  --soft-violet: hsl(277, 64%, 61%);
+
+  --White: hsl(0, 0%, 100%);
+  --prg-white: hsla(0, 0%, 100%, 0.75);
+  --hdgn-white: hsla(0, 0%, 100%, 0.6);
+
+  --inter: "Inter", sans-serif;
+  --lexend: "Lexend Deca", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+img,
+picture {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--very-dark-blue);
+  font-family: var(--inter);
+  color: var(--White);
+  font-size: 15px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 80%;
+  overflow: hidden;
+  border-radius: 14px;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: var(--Dark-blue);
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+  mix-blend-mode: multiply;
+}
+
+.image {
+  background-color: var(--soft-violet);
+}
