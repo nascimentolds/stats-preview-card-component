@@ -48,12 +48,47 @@ main {
   flex-direction: column;
   justify-content: space-evenly;
   background-color: var(--Dark-blue);
+  padding: 3.5rem;
+}
+
+.text-section h1 {
+  font-size: 2.5em;
+}
+
+.text-section > p {
+  max-width: 85%;
+  margin-top: 2rem;
+  color: var(--prg-white);
+  font-weight: 100;
+}
+
+.insights {
+  color: var(--soft-violet);
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-between;
+  max-width: 85%;
+  margin-top: 5rem;
+  line-height: 2em;
+}
+
+.numbers div p, .numbers div:nth-child(3) {
+  text-transform: uppercase;
+}
+
+.numbers div p {
+  font-family: var(--lexend);
+  color: var(--prg-white);
+  font-size: 9pt;
+  font-weight: 100;
+  letter-spacing: 1px;
 }
 
 .image img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: 100%;object-fit: cover;
   opacity: 0.8;
   mix-blend-mode: multiply;
 }
