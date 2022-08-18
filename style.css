@@ -38,7 +38,7 @@ body {
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 85%;
+  max-width: 1110px;
   overflow: hidden;
   border-radius: 14px;
 }
