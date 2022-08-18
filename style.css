@@ -105,7 +105,8 @@ main {
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
-    margin: 5rem;
+    margin-block: 5rem;
+    margin-inline: 3rem;
   }
 
   .text-section {
